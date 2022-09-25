@@ -39,7 +39,7 @@ header {
     text-align: center;
 }
 
-article {
+figure {
     display: flex;
     justify-content: left;
     align-items: center;
