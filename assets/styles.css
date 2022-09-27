@@ -5,6 +5,14 @@
 }
 
 /* global */
+a {
+    color:var(--title_color);
+}
+
+a:visited {
+    color:var(--title_color);
+}
+
 body {
     background: black;
     color: var(--content_color);

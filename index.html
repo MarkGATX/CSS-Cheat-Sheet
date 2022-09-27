@@ -21,7 +21,7 @@
     display:flex;
     flex-direction:row;
     flex-wrap:wrap;
-                </code></pre>
+</code></pre>
             </div>
         </figure>
         <figure class="card">
@@ -32,7 +32,8 @@
 .column {
     display:flex;
     flex-direction:column;
-                </code></pre>
+ }
+</code></pre>
             </div>
         </figure>
         <figure class="card">
@@ -45,7 +46,7 @@
     width:100%;
     grid-template-columns:repeat(12,1fr);
 }    
-                </code></pre>
+</code></pre>
             </div>
         </figure>
         <figure class="card">
@@ -59,7 +60,7 @@
         rgba(232, 201, 236, .6) 100%
     );
 }
-                </code></pre>
+</code></pre>
             </div>
         </figure>
         <figure class="card">
@@ -73,7 +74,7 @@
         rgba(232, 201, 236, .6) 100%
     );
 }
-                </code></pre>
+</code></pre>
             </div>
         </figure>
         <figure class="card">
@@ -93,7 +94,29 @@ code-card:hover card-header {
     0 0 15px rgab(232, 102, 236, 1);
     );
 }
-                </code></pre>
+</code></pre>
+            </div>
+        </figure>
+        <figure class="card">
+            <h2 class="card_title">Grow background on hover</h2>
+            <p>Use this transition to create the illusion of a link's underline growing on hover.</p>
+            <p>Credit to <a href="https://css-tricks.com/having-fun-with-link-hover-effects/">Geoff Graham on CSS Tricks</a></p>
+            <div class="card_code">
+                <pre><code>
+li {
+    background: linear-gradient(to bottom,
+    blue 0%,
+    blue 100%);
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 4px;
+    padding: 5px;
+    transition: all .3s;
+
+li:hover {
+    background-size: 4px 50px;
+}
+</code></pre>
             </div>
         </figure>
     </main>
