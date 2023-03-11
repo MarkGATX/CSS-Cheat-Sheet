@@ -61,7 +61,7 @@ figure {
     border: 3px dashed var(--title_color);
     border-radius: 10px;
     margin: 25px 0;
-    transition: all 1s ease-in-ease-out;
+    transition: all .1s ease-in-out;
 }
 
 .card h2 {
